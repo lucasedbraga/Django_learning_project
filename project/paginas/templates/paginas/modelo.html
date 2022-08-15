@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block titulo %}
+    <title>Modelo</title>
+    {% endblock %}
+
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+</head>
+<body>
+
+    <h3>Template de Modelo</h3>
+
+
+    {% block menu %}
+    <div class="bg-light">
+        Código do meu menu
+    </div>
+    {% endblock %}
+
+    {% block destaque %}
+    <div class="bg-scondary">
+        Figuras de Destaque
+    </div>
+    {% endblock %}
+
+    <div class="container">
+    {% block conteudo %}
+
+        <h3>Templade de Modelo</h3>
+        <p>Conteúdo do Site</p>
+
+    {% endblock %}
+    </div>
+
+    {% block rodape %}
+    <div class="bg-light">
+        Rodapé
+    </div>
+    {% endblock %}
+
+    
+
+    
+</body>
+</html>
