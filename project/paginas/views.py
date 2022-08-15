@@ -1,6 +1,6 @@
 from django.views.generic import TemplateView
 
 # Create your views here.
-class IndexView(TemplateView):
+class PaginaInicial(TemplateView):
     # Classe para página inicial
-    template_name= "index.html"
+    template_name= "paginas/index.html"
