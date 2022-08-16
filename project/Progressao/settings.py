@@ -38,8 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'paginas.apps.PaginasConfig'
-    #nomedoapp.apps.NomdeappConfig
+    'paginas.apps.PaginasConfig',
+    'cadastros.apps.CadastrosConfig',
+    #nomedoapp.apps.NomdeappConfig,
     
 ]
 
